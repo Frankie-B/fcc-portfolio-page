@@ -38,6 +38,27 @@ span {
 
 }
 /*Navigation*/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+a {
+    color: #e8eaf6;
+    text-decoration: none;
+}
 
 /*Main content*/
 .hero {
