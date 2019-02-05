@@ -22,8 +22,16 @@ h1 {
 }
 /*Navigation*/
 .navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+ul {
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .nav-links {
   list-style: none;
@@ -36,6 +44,8 @@ a:hover {
   text-decoration: none;
 }
 a {
+  display: block;
+  padding: 10px;
   color: #e8eaf6;
   text-decoration: none;
 }
@@ -62,9 +72,6 @@ p span {
 p {
   color: #fafafa;
 }
-
-
-
 
 /*Portfolio*/
 
