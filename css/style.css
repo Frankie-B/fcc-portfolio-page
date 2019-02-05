@@ -34,10 +34,15 @@ span {
 }
 /*Navigation*/
 .navbar {
+    display: flex;
+    justify-content: flex-end
 }
 
 .nav-links {
   list-style: none;
+}
+a:hover {
+    color: #7986cc; 
 }
 .nav-item {
   padding: 10px 15px;
@@ -61,7 +66,7 @@ a {
   background-size: cover;
   height: 100vh;
   padding: 1em;
-  color: $white;
+  color: white;
 }
 
 /*Portfolio*/
