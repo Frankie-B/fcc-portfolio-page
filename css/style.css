@@ -84,6 +84,12 @@ p {
 }
 
 /*Portfolio*/
+.portfolio {
+  background-color: #fafafa;
+  height: 100vh;
+
+
+}
 
 /*Call to action*/
 .cta {
