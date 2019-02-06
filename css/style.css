@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -85,10 +88,29 @@ p {
 
 /*Portfolio*/
 .portfolio {
+  display: flex;
+  align-items: center;
   background-color: #fafafa;
   height: 100vh;
-
-
+}
+.project-tile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 10vh;
+}
+.project-tile img {
+  margin: 10px;
+  border: 3px solid #7986cb;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+  max-width: 23vw;
+}
+.project-tile h3 a {
+  color: black;
+}
+.project-tile h3 a:hover {
+  color: #7986cb;
 }
 
 /*Call to action*/
