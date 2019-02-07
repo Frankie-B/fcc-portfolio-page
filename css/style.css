@@ -81,29 +81,41 @@ p {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   background-color: #fafafa;
   height: 100vh;
+}
+.project-tile h3 {
+  display: block;
+  background-color: #7986cb;
+  text-align: center;
+  position: relative;
+   z-index: 1;
 }
 .project-tile h3 a {
   color: black;
 }
 .project-tile h3 a:hover {
-  color: #7986cb;
+  color: #fafafa;
 }
 .project-tile {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  width: 30%;
-  justify-content: space-around;
-  padding: 1.5em;
+  align-content: center;
+  height: 350px;
+  width: 350px;
+  position: relative;
+  margin: 15% 10px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+  z-index: 0;
 }
 .project-tile img {
-  margin: 10px;
-  border: 3px solid #7986cb;
-  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
-  max-width: 23vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 /*Call to action*/
 .cta {
@@ -115,7 +127,7 @@ p {
 }
 .hireMe {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fafafa;
   letter-spacing: 4px;
   outline: 3px solid #fafafa;
