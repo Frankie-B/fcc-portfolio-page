@@ -170,15 +170,15 @@ footer {
 }
 
 /*Media queries*/
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 320px) {
   /* Styles */
-  .navbar {
-    left: 50%;
-    right: 50%;
-  }
   .navbar ul {
-    display: flex;
-    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  a:hover {
+    color: blue;
   }
   .hireMe {
     margin-left: 20px;
